@@ -5,12 +5,15 @@
     text-align: @center;
 }
 
-.btn (@border, @border, @color) {
+.button (@border, @border, @color, @padding) {
     border: @border;
     border-radius: @border;
     background-color: @color;
+    padding: @padding;
 
     &:hover {
-        opacity: green;
+        background-color: @shuttle-gray;
+        // opacity: 3rem;
+        color: white;
     }
 }
