@@ -1,1 +1,16 @@
 // Mixins Here
+.top-text (@display, @center, @center) {
+    display: @display;
+    justify-content: @center;
+    text-align: @center;
+}
+
+.btn (@border, @border, @color) {
+    border: @border;
+    border-radius: @border;
+    background-color: @color;
+
+    &:hover {
+        opacity: green;
+    }
+}
