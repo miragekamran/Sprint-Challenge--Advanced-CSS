@@ -166,14 +166,18 @@ p {
   text-align: center;
 }
 .nav a {
+  display: flex;
   font-size: 2rem;
   text-decoration: none;
   color: #5E6164;
   padding: 10px;
+  padding-left: 47px;
+  padding-right: 47px;
+  border: 1px solid lightgrey
 }
 .nav a:hover {
-  background-color: green;
-  color: red;
+  background-color: #946ac4;
+  color: #c2bbc9;
 }
 footer {
   color: #22283B;
@@ -264,16 +268,17 @@ footer {
 }
 .home .walk .walk-text .btn a {
   border: 1px;
-  border-radius: 1px;
+  border-radius: 5px;
   background-color: lightgray;
-  padding: 4px;
+  padding: 15px;
   text-decoration: none;
   color: #5E6164;
   padding: 10px;
+  font-size: 25px;
 }
 .home .walk .walk-text .btn a:hover {
-  background-color: #5E6164;
-  color: white;
+  background-color: #34eb92;
+  color: #96aba1;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn a {
